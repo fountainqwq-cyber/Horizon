@@ -1,24 +1,18 @@
-name: Deploy Docs
+name: Legacy Docs Branch Export (manual only)
 
+# The daily workflow publishes the built site via the Pages Actions API.
+# Retain this legacy branch exporter only for explicit manual use.
 on:
-  push:
-    branches: [main]
-    paths: ['docs/**']
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - uses: actions/checkout@v6
+      - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
