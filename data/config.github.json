@@ -27,7 +27,7 @@
         "topic_dedup": true
       },
       "personal-electronics": {
-        "threshold": 6,
+        "threshold": 7,
         "topic_dedup": true
       },
       "personal-germany": {
@@ -71,15 +71,8 @@
         "content_extractor": "article"
       },
       {
-        "name": "IT Home consumer electronics",
+        "name": "IT Home industry reports (strict trend filter)",
         "url": "https://www.ithome.com/rss/",
-        "category": "consumer-electronics",
-        "profile": "personal-electronics",
-        "content_extractor": "article"
-      },
-      {
-        "name": "Apple Newsroom",
-        "url": "https://www.apple.com/newsroom/rss-feed.rss",
         "category": "consumer-electronics",
         "profile": "personal-electronics",
         "content_extractor": "article"
@@ -95,6 +88,19 @@
         "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
         "category": "finance",
         "profile": "personal-business",
+        "content_extractor": "article"
+      },
+      {
+        "name": "TrendForce industry research",
+        "url": "https://www.trendforce.com/news/feed/",
+        "category": "consumer-electronics",
+        "profile": "personal-electronics"
+      },
+      {
+        "name": "Consumer electronics market research discovery",
+        "url": "https://news.google.com/rss/search?q=(smartphone%20OR%20PC%20OR%20wearable)%20(shipments%20OR%20%22market%20share%22%20OR%20inventory)%20(IDC%20OR%20Counterpoint%20OR%20Omdia%20OR%20Canalys)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "category": "consumer-electronics",
+        "profile": "personal-electronics",
         "content_extractor": "article"
       }
     ],
@@ -166,7 +172,7 @@
         ]
       },
       "consumer-electronics": {
-        "name": "消费电子",
+        "name": "消费电子行业趋势",
         "limit": 2,
         "categories": [
           "consumer-electronics"

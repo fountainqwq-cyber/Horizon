@@ -1,8 +1,8 @@
 {
   "id": "personal-electronics",
-  "name": "Consumer Electronics",
+  "name": "Consumer Electronics Industry Trends",
   "display_names": {
-    "zh": "消费电子"
+    "zh": "消费电子行业趋势"
   },
   "match": "match.md",
   "analysis": "analysis.md",
