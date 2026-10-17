@@ -10,3 +10,6 @@ Do not infer facts missing from a headline/snippet. Prefer primary evidence or c
 
 # Scope
 Material company and macroeconomic developments relevant to AI, semiconductors, consumer electronics, China or Germany: earnings, acquisitions, supply chains, trade, inflation and central-bank decisions. Prefer specific real-world impacts. Exclude intraday stock moves without a substantive cause, price predictions, investment recommendations and generic commentary.
+
+# Minimum evidence requirement
+If the supplied material is only a headline, link list or snippet that merely repeats the headline, score at most 3. A qualifying item must contain actual article/announcement details supporting the claimed change. Do not compensate for missing reporting with general knowledge or speculative consequences. Lack of an official company statement alone does not invalidate substantive attributed reporting.

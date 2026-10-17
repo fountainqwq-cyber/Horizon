@@ -10,3 +10,6 @@ Do not infer facts missing from a headline/snippet. Prefer primary evidence or c
 
 # Scope
 New AI models, consumer or enterprise AI products, pricing/access changes, real deployments, partnerships and material AI company developments. Prioritize practical availability and measurable product changes. Exclude coding tutorials, standalone research papers, routine library releases and theoretical explainers.
+
+# Minimum evidence requirement
+If the supplied material is only a headline, link list or snippet that merely repeats the headline, score at most 3. A qualifying item must contain actual article/announcement details supporting the claimed change. Do not compensate for missing reporting with general knowledge or speculative consequences. Lack of an official company statement alone does not invalidate substantive attributed reporting.

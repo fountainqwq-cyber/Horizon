@@ -50,28 +50,39 @@
     },
     "rss": [
       {
-        "name": "AI products and companies",
-        "url": "https://news.google.com/rss/search?q=(%22AI%20model%22%20OR%20%22AI%20product%22%20OR%20%22AI%20agent%22)%20(launch%20OR%20release%20OR%20pricing%20OR%20partnership)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "category": "ai",
-        "profile": "personal-ai"
+        "profile": "personal-ai",
+        "content_extractor": "article"
       },
       {
-        "name": "Semiconductor industry",
-        "url": "https://news.google.com/rss/search?q=(semiconductor%20OR%20TSMC%20OR%20ASML%20OR%20Infineon)%20(production%20OR%20earnings%20OR%20chip%20OR%20orders)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "name": "EE Times",
+        "url": "https://www.eetimes.com/feed/",
         "category": "semiconductors",
-        "profile": "personal-chips"
+        "profile": "personal-chips",
+        "content_extractor": "article"
       },
       {
-        "name": "Consumer electronics China",
-        "url": "https://news.google.com/rss/search?q=(%E6%89%8B%E6%9C%BA%20OR%20%E7%AC%94%E8%AE%B0%E6%9C%AC%20OR%20%E5%8F%AF%E7%A9%BF%E6%88%B4%20OR%20%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85)%20(%E5%8F%91%E5%B8%83%20OR%20%E5%87%BA%E8%B4%A7%E9%87%8F%20OR%20%E4%BE%9B%E5%BA%94%E9%93%BE)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+        "name": "NVIDIA official blog",
+        "url": "https://blogs.nvidia.com/feed/",
+        "category": "semiconductors",
+        "profile": "personal-chips",
+        "content_extractor": "article"
+      },
+      {
+        "name": "IT Home consumer electronics",
+        "url": "https://www.ithome.com/rss/",
         "category": "consumer-electronics",
-        "profile": "personal-electronics"
+        "profile": "personal-electronics",
+        "content_extractor": "article"
       },
       {
         "name": "Apple Newsroom",
         "url": "https://www.apple.com/newsroom/rss-feed.rss",
         "category": "consumer-electronics",
-        "profile": "personal-electronics"
+        "profile": "personal-electronics",
+        "content_extractor": "article"
       },
       {
         "name": "Germany study opportunities",
@@ -80,10 +91,11 @@
         "profile": "personal-germany"
       },
       {
-        "name": "Technology business and economy",
-        "url": "https://news.google.com/rss/search?q=(China%20OR%20Germany%20OR%20technology)%20(%22central%20bank%22%20OR%20inflation%20OR%20earnings%20OR%20acquisition%20OR%20%22trade%20policy%22)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "name": "CNBC business and economy",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
         "category": "finance",
-        "profile": "personal-business"
+        "profile": "personal-business",
+        "content_extractor": "article"
       }
     ],
     "reddit": {
@@ -183,5 +195,11 @@
   },
   "wechat": {
     "enabled": false
+  },
+  "extractors": {
+    "article": {
+      "type": "trafilatura",
+      "favor_precision": true
+    }
   }
 }

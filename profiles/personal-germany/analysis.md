@@ -10,3 +10,6 @@ Do not infer facts missing from a headline/snippet. Prefer primary evidence or c
 
 # Scope
 Studying in Germany: university applications, admissions, tuition, scholarships, student visa/residence rules and material changes affecting international students. Prioritize DAAD, university and government announcements; record eligibility and deadlines only when sourced. Exclude recruitment, job listings, career advice, unrelated university research and destination advertising.
+
+# Minimum evidence requirement
+If the supplied material is only a headline, link list or snippet that merely repeats the headline, score at most 3. A qualifying item must contain actual article/announcement details supporting the claimed change. Do not compensate for missing reporting with general knowledge or speculative consequences. Lack of an official company statement alone does not invalidate substantive attributed reporting.
