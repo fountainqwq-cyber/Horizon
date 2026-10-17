@@ -16,100 +16,74 @@
   },
   "processing": {
     "profiles_dir": "profiles",
-    "default_profile": "tech-news",
+    "default_profile": "personal-ai",
     "profile_settings": {
-      "tech-news": {
-        "threshold": 7,
+      "personal-ai": {
+        "threshold": 6,
         "topic_dedup": true
       },
-      "tech-blog": {
-        "threshold": 4,
-        "topic_dedup": false
+      "personal-chips": {
+        "threshold": 6,
+        "topic_dedup": true
       },
-      "finance-news": {
-        "threshold": 7,
+      "personal-electronics": {
+        "threshold": 6,
+        "topic_dedup": true
+      },
+      "personal-germany": {
+        "threshold": 6,
+        "topic_dedup": true
+      },
+      "personal-business": {
+        "threshold": 6,
         "topic_dedup": true
       }
     }
   },
   "sources": {
-    "github": [
-      {
-        "type": "user_events",
-        "username": "karpathy",
-        "enabled": true,
-        "profile": "tech-news"
-      },
-      {
-        "type": "repo_releases",
-        "owner": "vllm-project",
-        "repo": "vllm",
-        "enabled": true,
-        "profile": "tech-news"
-      },
-      {
-        "type": "repo_releases",
-        "owner": "sgl-project",
-        "repo": "sglang",
-        "enabled": true,
-        "profile": "tech-news"
-      },
-      {
-        "type": "repo_releases",
-        "owner": "triton-lang",
-        "repo": "triton",
-        "enabled": true,
-        "profile": "tech-news"
-      }
-    ],
+    "github": [],
     "hackernews": {
-      "enabled": true,
+      "enabled": false,
       "fetch_top_stories": 30,
       "min_score": 150,
       "profile": "tech-news"
     },
     "rss": [
       {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
-        "category": "ai-tools",
-        "profile": "tech-news"
-      },
-      {
-        "name": "vLLM Blog",
-        "url": "https://vllm.ai/blog/rss.xml",
-        "category": "llm-inference",
-        "profile": "tech-blog"
-      },
-      {
-        "name": "SemiAnalysis",
-        "url": "https://newsletter.semianalysis.com/feed",
-        "category": "semiconductors",
-        "profile": "tech-news"
+        "name": "AI products and companies",
+        "url": "https://news.google.com/rss/search?q=(%22AI%20model%22%20OR%20%22AI%20product%22%20OR%20%22AI%20agent%22)%20(launch%20OR%20release%20OR%20pricing%20OR%20partnership)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+        "category": "ai",
+        "profile": "personal-ai"
       },
       {
         "name": "Semiconductor industry",
-        "url": "https://news.google.com/rss/search?q=semiconductor%20TSMC%20ASML%20Infineon&hl=en-US&gl=US&ceid=US%3Aen",
+        "url": "https://news.google.com/rss/search?q=(semiconductor%20OR%20TSMC%20OR%20ASML%20OR%20Infineon)%20(production%20OR%20earnings%20OR%20chip%20OR%20orders)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
         "category": "semiconductors",
-        "profile": "tech-news"
+        "profile": "personal-chips"
       },
       {
-        "name": "Germany education and DAAD",
-        "url": "https://news.google.com/rss/search?q=DAAD%20Germany%20universities%20international%20students&hl=en-US&gl=US&ceid=US%3Aen",
+        "name": "Consumer electronics China",
+        "url": "https://news.google.com/rss/search?q=(%E6%89%8B%E6%9C%BA%20OR%20%E7%AC%94%E8%AE%B0%E6%9C%AC%20OR%20%E5%8F%AF%E7%A9%BF%E6%88%B4%20OR%20%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85)%20(%E5%8F%91%E5%B8%83%20OR%20%E5%87%BA%E8%B4%A7%E9%87%8F%20OR%20%E4%BE%9B%E5%BA%94%E9%93%BE)%20when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+        "category": "consumer-electronics",
+        "profile": "personal-electronics"
+      },
+      {
+        "name": "Apple Newsroom",
+        "url": "https://www.apple.com/newsroom/rss-feed.rss",
+        "category": "consumer-electronics",
+        "profile": "personal-electronics"
+      },
+      {
+        "name": "Germany study opportunities",
+        "url": "https://news.google.com/rss/search?q=(DAAD%20OR%20%22study%20in%20Germany%22%20OR%20%22German%20universities%22)%20(scholarship%20OR%20admission%20OR%20tuition%20OR%20%22international%20students%22)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
         "category": "germany-education",
-        "profile": "tech-news"
+        "profile": "personal-germany"
       },
       {
-        "name": "Germany chip industry",
-        "url": "https://news.google.com/rss/search?q=Germany%20semiconductor%20Infineon%20Dresden&hl=en-US&gl=US&ceid=US%3Aen",
-        "category": "semiconductors",
-        "profile": "tech-news"
-      },
-      {
-        "name": "CNBC Finance",
-        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+        "name": "Technology business and economy",
+        "url": "https://news.google.com/rss/search?q=(China%20OR%20Germany%20OR%20technology)%20(%22central%20bank%22%20OR%20inflation%20OR%20earnings%20OR%20acquisition%20OR%20%22trade%20policy%22)%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
         "category": "finance",
-        "profile": "finance-news"
+        "profile": "personal-business"
       }
     ],
     "reddit": {
@@ -156,46 +130,53 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 15,
+    "max_items": 10,
     "profile_order": [
-      "tech-news",
-      "tech-blog",
-      "finance-news"
+      "personal-ai",
+      "personal-chips",
+      "personal-electronics",
+      "personal-germany",
+      "personal-business"
     ],
     "category_groups": {
       "ai": {
-        "name": "AI / Technology",
-        "limit": 5,
+        "name": "AI 产品与产业",
+        "limit": 3,
         "categories": [
-          "ai-tools",
-          "llm-inference",
-          "github-trending"
+          "ai"
         ]
       },
       "semiconductors": {
-        "name": "Semiconductors",
-        "limit": 5,
+        "name": "半导体产业",
+        "limit": 2,
         "categories": [
           "semiconductors"
         ]
       },
-      "germany": {
-        "name": "Germany / Universities",
-        "limit": 3,
+      "consumer-electronics": {
+        "name": "消费电子",
+        "limit": 2,
+        "categories": [
+          "consumer-electronics"
+        ]
+      },
+      "germany-education": {
+        "name": "德国留学",
+        "limit": 1,
         "categories": [
           "germany-education"
         ]
       },
       "finance": {
-        "name": "Business / Economy",
-        "limit": 3,
+        "name": "商业与经济",
+        "limit": 2,
         "categories": [
           "finance"
         ]
       }
     },
     "default_group": "other",
-    "default_group_limit": 2
+    "default_group_limit": 1
   },
   "webhook": {
     "enabled": false

@@ -1,0 +1,1 @@
+New AI models, consumer or enterprise AI products, pricing/access changes, real deployments, partnerships and material AI company developments. Prioritize practical availability and measurable product changes. Exclude coding tutorials, standalone research papers, routine library releases and theoretical explainers.

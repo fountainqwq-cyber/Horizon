@@ -1,0 +1,1 @@
+Semiconductor design, fabrication, equipment, packaging, memory, supply chains and material business developments at companies such as NVIDIA, TSMC, ASML, SMIC and Infineon. Prefer concrete capacity, shipments, earnings, orders, regulation or production changes; exclude stock tips and unsupported rumors.

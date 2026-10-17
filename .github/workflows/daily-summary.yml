@@ -3,7 +3,7 @@ name: Horizon Daily Bilingual Digest
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/daily-summary.yml']
+    paths: ['.github/workflows/daily-summary.yml', 'data/config.github.json', 'profiles/personal-*/**']
   schedule:
     # GitHub cron is UTC: 00:30 UTC = 08:30 Beijing/Taipei.
     # Scheduled workflows can run later than the planned time.

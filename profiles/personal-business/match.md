@@ -1,0 +1,1 @@
+Material company and macroeconomic developments relevant to AI, semiconductors, consumer electronics, China or Germany: earnings, acquisitions, supply chains, trade, inflation and central-bank decisions. Prefer specific real-world impacts. Exclude intraday stock moves without a substantive cause, price predictions, investment recommendations and generic commentary.
