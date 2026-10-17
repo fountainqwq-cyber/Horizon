@@ -13,3 +13,6 @@ Phones, PCs, tablets, wearables, audio, smart-home products and consumer electro
 
 # Minimum evidence requirement
 If the supplied material is only a headline, link list or snippet that merely repeats the headline, score at most 3. A qualifying item must contain actual article/announcement details supporting the claimed change. Do not compensate for missing reporting with general knowledge or speculative consequences. Lack of an official company statement alone does not invalidate substantive attributed reporting.
+
+# Strict consumer electronics boundary
+This reader wants phones, PCs/laptops, tablets, wearables, headphones/audio and smart-home electronics. Standalone automobile/EV launches, car specifications, auto sales, motorcycles, large household appliances, games, film/TV, telecom tariffs and shopping coupons are OFF TOPIC even when the publisher is a technology outlet. Give these items 0-2, never 6 or higher. A car-related item qualifies only if its main subject is a specific semiconductor or embedded electronics technology, and then it belongs to the semiconductor profile, not here. Do not use this profile as a general technology-news bucket.
