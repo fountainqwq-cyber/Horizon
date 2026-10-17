@@ -5,63 +5,84 @@ date: 2026-10-17
 lang: zh
 ---
 
-> 从 17 条内容中筛选出 2 条重要资讯。
+> 从 226 条内容中筛选出 4 条重要资讯。
 
 ---
 
-**科技新闻**
-1. [从联想记忆出发，自己推导 Transformer](#item-tech-news-1) ⭐️ 8.0/10
-2. [Claude 追溯 NIST 椭圆曲线种子至 lrand48 时间戳](#item-tech-news-2) ⭐️ 8.0/10
+**AI 产品与产业**
+1. [Replit CEO 称不再与 Anthropic 合作](#item-personal-ai-1) ⭐️ 6.0/10
+
+**半导体产业**
+1. [英飞凌与 Wolfspeed 签署 200mm 碳化硅晶圆供应协议](#item-personal-chips-1) ⭐️ 6.5/10
+2. [富士胶片拟投 1800 万美元扩建 Mesa 半导体材料产能](#item-personal-chips-2) ⭐️ 6.4/10
+
+**商业与经济**
+1. [中国 9 月 CPI 同比上涨 0.9%](#item-personal-business-1) ⭐️ 6.0/10
 
 ---
 
-## 科技新闻
+## AI 产品与产业
 
-<a id="item-tech-news-1"></a>
-### [从联想记忆出发，自己推导 Transformer](https://alexwang.ai/posts/associative-memory/) ⭐️ 8.0/10
+<a id="item-personal-ai-1"></a>
+### [Replit CEO 称不再与 Anthropic 合作](https://news.google.com/rss/articles/CBMiigFBVV95cUxORUZZU1NHMjR4UjMxV2FHcVdGejB1UTFIQXdIT1VJZUJkbGVGdmJaTEMzMng0RUFPb3ZTd3R5cGszOHFmdzhiajNjeGhUeDVuSWdKT3A4ektPY1ZHMTB2UjFObklOZUxqbE1ONUVhS0h1Y0V4NTBvbzN2aERWdkF0aUIwNlRTUk9rZVE?oc=5) ⭐️ 6.0/10
 
-一篇发布在 alexwang.ai、并在 Hacker News 引发讨论的技术长文，尝试用联想记忆（associative memory）的视角解释 Transformer，让读者从记忆检索的直觉推导出这一架构。文章是教学性梳理，并非新模型、版本或实验结果发布；其价值在于提供一条不同于常规课程的教学路径。Hacker News 的讨论围绕如何把这一框架落到具体例子，以及文章对“你”这一前提的界定展开。
+据 Unite.AI 标题报道，Replit CEO Amjad Masad 表示公司已不再与 Anthropic 合作。该报道未提供原因、终止时间、替代模型供应商，也没有 Anthropic 或 Replit 的正式确认，因此合作范围与影响仍不明确。
 
-hackernews · speckx · 10月16日 19:01 · [社区讨论](https://news.ycombinator.com/item?id=50122878)
+rss · AI products and companies · 10月16日 23:06
 
-**「背景：什么是联想记忆」** 联想记忆（associative memory）指按相似度而非精确地址检索的记忆存储：用某个键查询时，召回与之对应的值，最基础的实现是把记忆以外积形式累加。Alex Wang 的文章正是从这一概念出发，把线性映射、MLP 和自注意力都视为联想记忆，再一步步推导出注意力公式，而不是让读者直接背下论文里的定义。文章用干扰信号比来定义容量：以 64 维键为例，线性层大约能存 64 条记忆，MLP 约 2,700 条，自注意力则可超过一百万条。
+**「影响」** 若消息属实，Replit 的底层模型供应关系将发生变化，影响使用 Replit 的开发者以及关注企业 AI 采购的客户。在双方确认前，应将其视为未经证实的高管表态，而非已完成的供应变更。
 
-**「社区讨论」** 有读者提出用“50 个州首府”作为具体例子，追问如何从最基础的 tokenization 开始，把联想记忆框架落到实处；另一条评论则认为文章应先说明什么才算一个“你”。作者在讨论中贴出了自己的简短摘要，也有读者表示希望更早接触到这种从记忆角度讲解 Transformer 的视角。
+**「细节」** 该报道发布于 2026 年 10 月 16 日；目前可获取的内容仅有标题，未披露具体原因、受影响产品范围或后续安排。来源：\[Unite.AI\]\(https://news.google.com/rss/articles/CBMiigFBVV95cUxORUZZU1NHMjR4UjMxV2FHcVdGejB1UTFIQXdIT1VJZUJkbGVGdmJaTEMzMng0RUFPb3ZTd3R5cGszOHFmdzhiajNjeGhUeDVuSWdKT3A4ektPY1ZHMTB2UjFObklOZUxqbE1ONUVhS0h1Y0V4NTBvbzN2aERWdkF0aUIwNlRTUk9rZVE?oc=5\)
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://alexwang.ai/posts/associative-memory/">You could have invented transformers from memory | Alex Wang</a></li>
-<li><a href="https://veriwire.news/daily-ai-news/you-could-have-invented-transformers-from-memory-239322/">You could have invented transformers from memory — Veriwire</a></li>
-<li><a href="https://elsolitario.org/en/2026/10/17/associative-memory-what-it-is-and-its-link-to-attention/">Associative Memory: What It Is and How It Works</a></li>
-
-</ul>
-</details>
-
-**标签**: `#transformers`, `#associative-memory`, `#machine-learning`, `#technical-explainer`, `#neural-networks`
+**标签**: `#Replit`, `#Anthropic`, `#AI partnerships`, `#enterprise AI`
 
 ---
 
-<a id="item-tech-news-2"></a>
-### [Claude 追溯 NIST 椭圆曲线种子至 lrand48 时间戳](https://www.anthropic.com/research/ecdsa-curve-origins) ⭐️ 8.0/10
+## 半导体产业
 
-密码学研究人员和审计者得到一个据称由 Claude 完成的新解释：NIST P-192、P-224、P-256、P-384 和 P-521 的种子来自 C 库 lrand48 的输出，并以 Unix 时间戳为种子，而不是由哈希算法生成。Anthropic 的研究页面称这一追溯在不到半小时内完成，但第五个二进制种子 B-163 仍未获解释。该结果只说明种子的产生方式，不能证明曲线参数的选择过程，因为生成后丢弃的候选无法被观察。
+<a id="item-personal-chips-1"></a>
+### [英飞凌与 Wolfspeed 签署 200mm 碳化硅晶圆供应协议](https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ3FoaWhJY05TNWtJUUM1NEVPVFllU18yT3dMRVlBblltSUduLW5wa1ZsRUdBdGZ2MnJBTnBBRHY5b2czc1JPRU5YcDhnM3pWNTk0bGYxNm0xQnFkd2Vtc2tsUHF3Wmd2V2o4MGpPS2xBa05Ed0J0cDRES2ZVMFJUa09lOGhBYkFFQXAwMDN5TDBTTHlIeG5IMm5uLW1KYWQxcFBjcFFvQ0t5c2JTX0lHRlpKZS1FeVZNa2h1QzBjYjV6WVBLWGRtX28yWXB1R2Y10gHWAUFVX3lxTE12akJVMC1nZWdCdmtHQld6M2x4QmRLZmN3anlBS0R2aHJhc3RWWksxUGYyWUMwTlNfWXFZeHA4UmFGc2IwS3B2OVBGdWkwYjA1VTdZRWNXRGhiVXU2V0ZQTDdEdUVpSzZKRjFLbmRFUC1Dc3g0bTRqMUZMT0xtelNJdHJzdG5TTUNOYVkyVDM1akYyNlloaHI4T1hzZUdWSExXUXVoUGRla3NTa293MUxFc0pmSTNra1I5aE9BRURnUWxsd1ZIdlVTcFh3bEdiYml2QTJkdXc?oc=5) ⭐️ 6.5/10
 
-hackernews · ahlCVA · 10月16日 18:55 · [社区讨论](https://news.ycombinator.com/item?id=50122800)
+据 electronics.economictimes.indiatimes.com 报道，英飞凌与 Wolfspeed 签署了一项 200mm（8 英寸）碳化硅晶圆供应协议。该报道目前仅提供标题，未披露交易金额、供货量、合同期限或交付时间表，相关条款也尚未获得双方官方确认。
 
-**「背景」** NIST 在 P-192、P-224、P-256、P-384、P-521 等标准椭圆曲线参数中同时公布了一串“种子”值，其用途是让外界能够验证曲线参数并非随意挑选；但种子究竟如何生成，长期没有公开说明。由于缺乏这一环，外界一直存在曲线可能被刻意构造成带有隐藏性质的猜测，而 Anthropic 的文章称 Claude 用格约简从被截断的生成器状态中反解出 1997 至 1998 年的 Unix 时间戳，从而给出了这些种子的来源。
+rss · Semiconductor industry · 10月17日 07:24
 
-**「影响」** 对使用这些 NIST 曲线的组织，这项发现没有提供更换曲线或修改实现的理由；它的直接后果是审计解释发生变化：即使种子来源被还原，也无法排除通过搜索时间戳筛选参数的可能性，因此不能据此判断曲线是否存在后门或是否安全。
+**「影响」** 若协议属实，英飞凌可借此锁定 8 英寸 SiC 晶圆供应，支撑其碳化硅功率器件扩产；Wolfspeed 则可能获得新的下游客户订单。由于缺少具体条款和官方确认，对双方产能与供应的实际影响仍待观察。
 
-**「社区讨论」** 评论者 fidotron 强调，确认生成方法不等于确认参数选择，尤其是候选在数月间生成并丢弃后无法审计；teddyh 则提出 B-163 无法解释可能只是发布时抄错一位数字。多条评论以玩笑口吻称，这一结果打击了长期流传的 NIST 曲线阴谋论，但这些只是社区反应，并非独立验证。
+**「待核实信息」** 现有信息未包含协议金额、供货规模、期限或生效日期，需以英飞凌或 Wolfspeed 的官方公告为准。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.anthropic.com/research/ecdsa-curve-origins">Claude reveals ECDSA curve origins \ Anthropic</a></li>
-<li><a href="https://aiweekly.co/alerts/anthropic-claude-traced-nist-ecdsa-seeds-to-unix-timestamps">Anthropic: Claude Traced NIST ECDSA Seeds to Unix Timestamps</a></li>
+**标签**: `#Infineon`, `#Wolfspeed`, `#SiC wafers`, `#200mm wafers`, `#semiconductor supply chain`
 
-</ul>
-</details>
+---
 
-**标签**: `#cryptography`, `#elliptic-curves`, `#NIST`, `#AI-assisted-research`, `#random-number-generation`
+<a id="item-personal-chips-2"></a>
+### [富士胶片拟投 1800 万美元扩建 Mesa 半导体材料产能](https://news.google.com/rss/articles/CBMif0FVX3lxTFBuaTJhSGFWQkdBMDllTTRWTnV4QUVzMVZBR21kZTRxVWNPX2praUdwTHpmeHBlc3dCb3ZaYy0tOG9rNlZTRE9YVFVrN0pGMVFKckdPUjBpWFBobFRRV3FYbUdMbm5aSVlGRHpzOHdRODltdmdBZzBTMDdJSzZLSEE?oc=5) ⭐️ 6.4/10
+
+据 KTAR News 92.3 FM 报道，富士胶片计划在亚利桑那州 Mesa 投资 1800 万美元进行扩建，以提高半导体材料产量。该报道未披露具体产能、涉及产品、投产时间表，也未说明是否获得官方确认，相关细节仍需核实。
+
+rss · Semiconductor industry · 10月17日 12:46
+
+**「影响」** 如果这项投资落实，将增加美国本土的半导体材料供应，与当地晶圆制造及材料供应链形成配套；但 1800 万美元的规模有限，实际影响取决于尚未公布的产品种类和产能增量。
+
+**「已知信息」** 该消息于 2026 年 10 月 17 日由 KTAR News 报道，投资金额为 1800 万美元，地点为亚利桑那州 Mesa。扩建内容、产能数字与时间表均未在现有信息中说明，需以富士胶片官方公告为准。
+
+**标签**: `#Fujifilm`, `#semiconductor materials`, `#capacity expansion`, `#Mesa Arizona`, `#manufacturing investment`
+
+---
+
+## 商业与经济
+
+<a id="item-personal-business-1"></a>
+### [中国 9 月 CPI 同比上涨 0.9%](https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zSkxsSVg5UFhNVEVsTnFqWGhSblBQeThTUVNTRVdfaWo1bHVOdG5MR19fU2U5MjhxaXhNNS1OemJ5a3Zxb1RPZnJaLVQ3MVNz?oc=5) ⭐️ 6.0/10
+
+据 Trend News Agency 于 2026 年 10 月 17 日发布的报道，中国 9 月消费者物价指数（CPI）同比上涨 0.9%，标题称通胀“小幅上行”。该报道仅提供标题，未给出与 8 月的对比、环比数据或核心 CPI 分项，也未引用中国国家统计局的原始发布；具体数据仍以官方公布为准。
+
+rss · Technology business and economy · 10月17日 09:35
+
+**「影响」** CPI 是判断中国内需强弱与货币政策空间的关键指标，0.9%的涨幅意味着物价压力总体温和，对消费品、零售及食品相关企业的定价环境具有参考意义。由于缺少分项与对比数据，目前无法判断上行的具体来源。
+
+**「补充信息」** 发布方：Trend News Agency；报道时间：2026 年 10 月 17 日。来源未披露统计口径、基期对比及是否为核心 CPI，相关细节需等待中国国家统计局官方数据确认。
+
+**标签**: `#China CPI`, `#inflation`, `#China macroeconomy`, `#September data`, `#consumer prices`
 
 ---

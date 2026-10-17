@@ -5,62 +5,80 @@ date: 2026-10-17
 lang: en
 ---
 
-> From 17 items, 2 important content pieces were selected
+> From 226 items, 4 important content pieces were selected
 
 ---
 
-**Technology News**
-1. [Explainer presents transformers through associative memory](#item-tech-news-1) ⭐️ 8.0/10
-2. [Claude traces most NIST curve seeds to timestamp-seeded lrand48](#item-tech-news-2) ⭐️ 8.0/10
+**AI Products &amp; Industry**
+1. [Replit CEO Reportedly Ends Anthropic Work](#item-personal-ai-1) ⭐️ 6.0/10
+
+**Semiconductor Industry**
+1. [Infineon, Wolfspeed sign 200mm SiC wafer supply deal](#item-personal-chips-1) ⭐️ 6.5/10
+2. [Fujifilm plans $18M Mesa semiconductor materials expansion](#item-personal-chips-2) ⭐️ 6.4/10
+
+**Business &amp; Economy**
+1. [China CPI reportedly rises 0.9% in September](#item-personal-business-1) ⭐️ 6.0/10
 
 ---
 
-## Technology News
+## AI Products &amp; Industry
 
-<a id="item-tech-news-1"></a>
-### [Explainer presents transformers through associative memory](https://alexwang.ai/posts/associative-memory/) ⭐️ 8.0/10
+<a id="item-personal-ai-1"></a>
+### [Replit CEO Reportedly Ends Anthropic Work](https://news.google.com/rss/articles/CBMiigFBVV95cUxORUZZU1NHMjR4UjMxV2FHcVdGejB1UTFIQXdIT1VJZUJkbGVGdmJaTEMzMng0RUFPb3ZTd3R5cGszOHFmdzhiajNjeGhUeDVuSWdKT3A4ektPY1ZHMTB2UjFObklOZUxqbE1ONUVhS0h1Y0V4NTBvbzN2aERWdkF0aUIwNlRTUk9rZVE?oc=5) ⭐️ 6.0/10
 
-A technical explainer on alexwang.ai presents transformers through the lens of associative memory, aiming to give readers an intuitive route into the architecture. It is an educational deep-dive rather than a product release or new research result; the supplied material includes no version numbers, benchmarks, or implementation claims.
+Unite.AI reports that Replit CEO Amjad Masad said the company no longer works with Anthropic. The item provides only a headline: no date for the statement, no reason, no replacement model provider, and no confirmation from Replit or Anthropic. The claim should be treated as unconfirmed.
 
-hackernews · speckx · Oct 16, 19:01 · [Discussion](https://news.ycombinator.com/item?id=50122878)
+rss · AI products and companies · Oct 16, 23:06
 
-**「Associative memory as the starting point」** Associative memory is a store that returns a value when queried with a matching or merely similar key; Alex Wang&\#x27;s essay uses that idea as its starting point. It then treats linear maps, MLPs, and self-attention as associative memory stores and compares their capacity using an interference-to-signal ratio—with 64-dimensional keys, the cited estimates grow from about 64 memories in a linear layer to roughly 2,700 in an MLP and over a million in self-attention.
+**「Impact」** If confirmed, the change would matter to Replit users and enterprise buyers who depend on Anthropic models inside Replit&\#x27;s coding platform, and would shift a visible AI-tooling partnership. The practical effect on model availability, pricing or performance cannot be assessed from the available evidence.
 
-**「Community discussion」** Commenters largely welcomed the associative-memory framing as a clearer teaching route; one reader asked how to make it concrete by storing the 50 state capitals and working through basic tokenization. Another reader noted that the framing echoes an earlier cybernetics question about what memory is, while the author joined the thread with a short summary link.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://alexwang.ai/posts/associative-memory/">You could have invented transformers from memory | Alex Wang</a></li>
-<li><a href="https://veriwire.news/daily-ai-news/you-could-have-invented-transformers-from-memory-239322/">You could have invented transformers from memory — Veriwire</a></li>
-<li><a href="https://elsolitario.org/en/2026/10/17/associative-memory-what-it-is-and-its-link-to-attention/">Associative Memory: What It Is and How It Works</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#transformers`, `#associative-memory`, `#machine-learning`, `#technical-explainer`, `#neural-networks`
+**Tags**: `#Replit`, `#Anthropic`, `#AI partnerships`, `#enterprise AI`
 
 ---
 
-<a id="item-tech-news-2"></a>
-### [Claude traces most NIST curve seeds to timestamp-seeded lrand48](https://www.anthropic.com/research/ecdsa-curve-origins) ⭐️ 8.0/10
+## Semiconductor Industry
 
-A new report says Claude traced the NIST P-192, P-224, P-256, P-384 and P-521 elliptic-curve seeds to output from the C library&\#x27;s lrand48 generator seeded with Unix timestamps, not to a hash algorithm. It says the work took under half an hour, while the fifth binary seed, B-163, remains unexplained; a commenter suggests a possible transcription error. The result identifies how the seed values appear to have been generated, not whether the curves were selected for a particular property.
+<a id="item-personal-chips-1"></a>
+### [Infineon, Wolfspeed sign 200mm SiC wafer supply deal](https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ3FoaWhJY05TNWtJUUM1NEVPVFllU18yT3dMRVlBblltSUduLW5wa1ZsRUdBdGZ2MnJBTnBBRHY5b2czc1JPRU5YcDhnM3pWNTk0bGYxNm0xQnFkd2Vtc2tsUHF3Wmd2V2o4MGpPS2xBa05Ed0J0cDRES2ZVMFJUa09lOGhBYkFFQXAwMDN5TDBTTHlIeG5IMm5uLW1KYWQxcFBjcFFvQ0t5c2JTX0lHRlpKZS1FeVZNa2h1QzBjYjV6WVBLWGRtX28yWXB1R2Y10gHWAUFVX3lxTE12akJVMC1nZWdCdmtHQld6M2x4QmRLZmN3anlBS0R2aHJhc3RWWksxUGYyWUMwTlNfWXFZeHA4UmFGc2IwS3B2OVBGdWkwYjA1VTdZRWNXRGhiVXU2V0ZQTDdEdUVpSzZKRjFLbmRFUC1Dc3g0bTRqMUZMT0xtelNJdHJzdG5TTUNOYVkyVDM1akYyNlloaHI4T1hzZUdWSExXUXVoUGRla3NTa293MUxFc0pmSTNra1I5aE9BRURnUWxsd1ZIdlVTcFh3bEdiYml2QTJkdXc?oc=5) ⭐️ 6.5/10
 
-hackernews · ahlCVA · Oct 16, 18:55 · [Discussion](https://news.ycombinator.com/item?id=50122800)
+Infineon has signed a supply agreement with Wolfspeed for 200mm silicon carbide wafers, according to a headline report from electronics.economictimes.indiatimes.com. The report provides no deal value, volume, duration or delivery schedule, and neither company&\#x27;s confirmation was included in the supplied material. Terms and timing therefore remain unconfirmed.
 
-**「Why the seeds mattered」** The P-192, P-224, P-256, P-384 and P-521 curves in NIST&\#x27;s elliptic-curve standards carry seed values intended to let anyone re-derive the curve parameters, but NIST never documented how the seeds themselves were produced. Such &quot;nothing up my sleeve&quot; numbers are normally the output of a hash function, and coverage of the finding notes that the seeds had been assumed to be exactly that until Claude traced them elsewhere \[tool-2-2\]. The undocumented provenance left the parameters unverifiable in practice and sustained long-running suspicion that the curves were built with a hidden weakness.
+rss · Semiconductor industry · Oct 17, 07:24
 
-**「Impact」** For auditors, the practical upshot is that the five curves&\#x27; seeds can be checked against lrand48 output rather than treated as opaque hash preimages; however, the method cannot show which generated candidates were discarded before selection.
+**「Impact」** The reported deal would link Infineon&\#x27;s SiC device production to Wolfspeed&\#x27;s larger-format wafer supply, a relevant step as the industry shifts from 150mm to 200mm SiC substrates to raise output per wafer. Practical effects depend on volumes and timing, which were not disclosed.
 
-**「Community discussion」** Commenters treated the result as a blow to long-running NIST conspiracy theories, while fidotron cautioned that confirming the production method does not prove how the curves were selected, since discarded candidates generated over months would be invisible. teddyh offered the simplest explanation for the unresolved B-163 seed: a mistyped digit in the published value.
+**Tags**: `#Infineon`, `#Wolfspeed`, `#SiC wafers`, `#200mm wafers`, `#semiconductor supply chain`
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.unite.ai/anthropic-says-claude-traced-nist-ecdsa-curve-seeds-to-a-1990s-rng/">Anthropic Says Claude Traced NIST ECDSA Curve Seeds to a ...</a></li>
+---
 
-</ul>
-</details>
+<a id="item-personal-chips-2"></a>
+### [Fujifilm plans $18M Mesa semiconductor materials expansion](https://news.google.com/rss/articles/CBMif0FVX3lxTFBuaTJhSGFWQkdBMDllTTRWTnV4QUVzMVZBR21kZTRxVWNPX2praUdwTHpmeHBlc3dCb3ZaYy0tOG9rNlZTRE9YVFVrN0pGMVFKckdPUjBpWFBobFRRV3FYbUdMbm5aSVlGRHpzOHdRODltdmdBZzBTMDdJSzZLSEE?oc=5) ⭐️ 6.4/10
 
-**Tags**: `#cryptography`, `#elliptic-curves`, `#NIST`, `#AI-assisted-research`, `#random-number-generation`
+Fujifilm reportedly plans an $18 million expansion in Mesa, Arizona, aimed at increasing semiconductor materials production, according to KTAR News. The report, published Oct. 17, 2026, did not specify added capacity, products or a timeline in the supplied excerpt.
+
+rss · Semiconductor industry · Oct 17, 12:46
+
+**「Impact」** The investment would add semiconductor-materials capacity in Arizona, potentially supporting chipmakers and suppliers in the U.S. supply chain. Its practical effect depends on the products and timing, which the supplied report did not detail.
+
+**「Details」** Supported details: $18 million; Mesa, Arizona; semiconductor materials production. No capacity, product, timeline or incentive information was provided in the supplied excerpt; official company confirmation is needed.
+
+**Tags**: `#Fujifilm`, `#semiconductor materials`, `#capacity expansion`, `#Mesa Arizona`, `#manufacturing investment`
+
+---
+
+## Business &amp; Economy
+
+<a id="item-personal-business-1"></a>
+### [China CPI reportedly rises 0.9% in September](https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zSkxsSVg5UFhNVEVsTnFqWGhSblBQeThTUVNTRVdfaWo1bHVOdG5MR19fU2U5MjhxaXhNNS1OemJ5a3Zxb1RPZnJaLVQ3MVNz?oc=5) ⭐️ 6.0/10
+
+China’s consumer inflation reportedly edged up to 0.9% in September, according to a headline-only Trend News Agency item. The report did not provide the prior reading, underlying components or a link to the official statistics release.
+
+rss · Technology business and economy · Oct 17, 09:35
+
+**「Why it matters」** The reading is a key gauge for Chinese households, businesses and policymakers assessing domestic demand and the case for further monetary easing. With only a headline available, its practical significance cannot yet be fully assessed.
+
+**「Evidence caveat」** The 0.9% September figure is unconfirmed by a primary statistical release in the supplied material; official confirmation and comparison with earlier months are needed.
+
+**Tags**: `#China CPI`, `#inflation`, `#China macroeconomy`, `#September data`, `#consumer prices`
 
 ---
