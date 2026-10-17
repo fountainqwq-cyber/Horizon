@@ -1,6 +1,9 @@
 name: Horizon Daily Bilingual Digest
 
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/daily-summary.yml']
   schedule:
     # GitHub cron is UTC: 00:30 UTC = 08:30 Beijing/Taipei.
     # Scheduled workflows can run later than the planned time.
@@ -35,6 +38,18 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate DeepSeek credential format
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          key = os.environ["DEEPSEEK_API_KEY"]
+          if not key.isascii() or any(c.isspace() for c in key) or not key.startswith("sk-"):
+              raise SystemExit("::error::DEEPSEEK_API_KEY is not a valid credential format. Replace the repository secret with the actual key copied from platform.deepseek.com (no labels, quotes, spaces or non-ASCII characters). The secret value is never printed.")
+          print("DeepSeek credential format validated; API authentication will be checked during generation.")
+          PY
+
       - name: Install uv
         uses: astral-sh/setup-uv@v6
         with:
@@ -52,7 +67,13 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
           TZ: Asia/Taipei
-        run: uv run horizon --hours 24 --log-level INFO
+        run: |
+          set -o pipefail
+          uv run horizon --hours 24 --log-level INFO 2>&1 | tee /tmp/horizon-generation.log
+          if grep -Eq 'ERROR|RetryError|UnicodeEncodeError' /tmp/horizon-generation.log; then
+            echo "::error::News generation logged processing errors. Refusing to archive or publish an incomplete digest; inspect the generation step."
+            exit 1
+          fi
 
       - name: Archive daily reports to the main branch
         run: |
