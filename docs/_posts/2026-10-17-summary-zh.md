@@ -5,84 +5,128 @@ date: 2026-10-17
 lang: zh
 ---
 
-> 从 226 条内容中筛选出 4 条重要资讯。
+> 从 73 条内容中筛选出 7 条重要资讯。
 
 ---
 
 **AI 产品与产业**
-1. [Replit CEO 称不再与 Anthropic 合作](#item-personal-ai-1) ⭐️ 6.0/10
+1. [Replit CEO 称已终止与 Anthropic 合作](#item-personal-ai-1) ⭐️ 7.5/10
+2. [Elorian 发布首款视觉推理模型 Glimpse](#item-personal-ai-2) ⭐️ 7.2/10
+3. [Vercel 称 Jev 创其最快模型采用纪录：两周覆盖 35% 付费团队](#item-personal-ai-3) ⭐️ 7.2/10
 
-**半导体产业**
-1. [英飞凌与 Wolfspeed 签署 200mm 碳化硅晶圆供应协议](#item-personal-chips-1) ⭐️ 6.5/10
-2. [富士胶片拟投 1800 万美元扩建 Mesa 半导体材料产能](#item-personal-chips-2) ⭐️ 6.4/10
+**消费电子**
+1. [JBL WAVE FLEX 3 半入耳降噪耳机首销，668 元](#item-personal-electronics-1) ⭐️ 7.0/10
+2. [比亚迪第三代秦 PLUS 官图公布，秦 PLUS EV 完成申报](#item-personal-electronics-2) ⭐️ 7.0/10
 
 **商业与经济**
-1. [中国 9 月 CPI 同比上涨 0.9%](#item-personal-business-1) ⭐️ 6.0/10
+1. [美方在曼谷会谈提出万事达与花旗市场准入](#item-personal-business-1) ⭐️ 7.5/10
+2. [伯克希尔加码 Bending Spoons，软件整合模式获背书](#item-personal-business-2) ⭐️ 7.0/10
 
 ---
 
 ## AI 产品与产业
 
 <a id="item-personal-ai-1"></a>
-### [Replit CEO 称不再与 Anthropic 合作](https://news.google.com/rss/articles/CBMiigFBVV95cUxORUZZU1NHMjR4UjMxV2FHcVdGejB1UTFIQXdIT1VJZUJkbGVGdmJaTEMzMng0RUFPb3ZTd3R5cGszOHFmdzhiajNjeGhUeDVuSWdKT3A4ektPY1ZHMTB2UjFObklOZUxqbE1ONUVhS0h1Y0V4NTBvbzN2aERWdkF0aUIwNlRTUk9rZVE?oc=5) ⭐️ 6.0/10
+### [Replit CEO 称已终止与 Anthropic 合作](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/) ⭐️ 7.5/10
 
-据 Unite.AI 标题报道，Replit CEO Amjad Masad 表示公司已不再与 Anthropic 合作。该报道未提供原因、终止时间、替代模型供应商，也没有 Anthropic 或 Replit 的正式确认，因此合作范围与影响仍不明确。
+在 TechCrunch Disrupt 活动上，Replit 联合创始人兼 CEO Amjad Masad 表示，公司已不再与 Anthropic 合作，原因包括成本、合作关系和性能；他称内部与公开基准显示，Sol 和 Astra 在从零构建应用上表现更好。但熟悉双方合作的人士否认合作已结束，Replit 官网、博客及社交帖显示其几周前仍在生产环境使用 Claude 模型。Replit 此前于 8 月宣布与 OpenAI 达成合作。
 
-rss · AI products and companies · 10月16日 23:06
+rss · TechCrunch AI · 10月16日 21:22
 
-**「影响」** 若消息属实，Replit 的底层模型供应关系将发生变化，影响使用 Replit 的开发者以及关注企业 AI 采购的客户。在双方确认前，应将其视为未经证实的高管表态，而非已完成的供应变更。
+**「影响」** 若该说法属实，将影响 Replit Agent 所依赖的底层模型选择，并牵动 Anthropic 在 AI 编程平台的分发渠道；但 CEO 表态与知情人士说法相互矛盾，双方当前关系仍待确认。
 
-**「细节」** 该报道发布于 2026 年 10 月 16 日；目前可获取的内容仅有标题，未披露具体原因、受影响产品范围或后续安排。来源：\[Unite.AI\]\(https://news.google.com/rss/articles/CBMiigFBVV95cUxORUZZU1NHMjR4UjMxV2FHcVdGejB1UTFIQXdIT1VJZUJkbGVGdmJaTEMzMng0RUFPb3ZTd3R5cGszOHFmdzhiajNjeGhUeDVuSWdKT3A4ektPY1ZHMTB2UjFObklOZUxqbE1ONUVhS0h1Y0V4NTBvbzN2aERWdkF0aUIwNlRTUk9rZVE?oc=5\)
+**「补充信息」** Masad 称企业合同收入占比由去年的约 2%升至约 15%，B2B 业务已超过总收入的一半，但未公布 ARR 数字。9 月底的 Replit 博客仍提到 Claude Fable 5 与 5.1 运行于 Replit Agent 生产环境，一名产品员工亦在 X 上谈及 Opus 5.5。TechCrunch 表示已向 Replit 求证，尚未获回复。
 
-**标签**: `#Replit`, `#Anthropic`, `#AI partnerships`, `#enterprise AI`
-
----
-
-## 半导体产业
-
-<a id="item-personal-chips-1"></a>
-### [英飞凌与 Wolfspeed 签署 200mm 碳化硅晶圆供应协议](https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ3FoaWhJY05TNWtJUUM1NEVPVFllU18yT3dMRVlBblltSUduLW5wa1ZsRUdBdGZ2MnJBTnBBRHY5b2czc1JPRU5YcDhnM3pWNTk0bGYxNm0xQnFkd2Vtc2tsUHF3Wmd2V2o4MGpPS2xBa05Ed0J0cDRES2ZVMFJUa09lOGhBYkFFQXAwMDN5TDBTTHlIeG5IMm5uLW1KYWQxcFBjcFFvQ0t5c2JTX0lHRlpKZS1FeVZNa2h1QzBjYjV6WVBLWGRtX28yWXB1R2Y10gHWAUFVX3lxTE12akJVMC1nZWdCdmtHQld6M2x4QmRLZmN3anlBS0R2aHJhc3RWWksxUGYyWUMwTlNfWXFZeHA4UmFGc2IwS3B2OVBGdWkwYjA1VTdZRWNXRGhiVXU2V0ZQTDdEdUVpSzZKRjFLbmRFUC1Dc3g0bTRqMUZMT0xtelNJdHJzdG5TTUNOYVkyVDM1akYyNlloaHI4T1hzZUdWSExXUXVoUGRla3NTa293MUxFc0pmSTNra1I5aE9BRURnUWxsd1ZIdlVTcFh3bEdiYml2QTJkdXc?oc=5) ⭐️ 6.5/10
-
-据 electronics.economictimes.indiatimes.com 报道，英飞凌与 Wolfspeed 签署了一项 200mm（8 英寸）碳化硅晶圆供应协议。该报道目前仅提供标题，未披露交易金额、供货量、合同期限或交付时间表，相关条款也尚未获得双方官方确认。
-
-rss · Semiconductor industry · 10月17日 07:24
-
-**「影响」** 若协议属实，英飞凌可借此锁定 8 英寸 SiC 晶圆供应，支撑其碳化硅功率器件扩产；Wolfspeed 则可能获得新的下游客户订单。由于缺少具体条款和官方确认，对双方产能与供应的实际影响仍待观察。
-
-**「待核实信息」** 现有信息未包含协议金额、供货规模、期限或生效日期，需以英飞凌或 Wolfspeed 的官方公告为准。
-
-**标签**: `#Infineon`, `#Wolfspeed`, `#SiC wafers`, `#200mm wafers`, `#semiconductor supply chain`
+**标签**: `#Replit`, `#Anthropic`, `#AI partnerships`, `#AI coding`, `#TechCrunch Disrupt`
 
 ---
 
-<a id="item-personal-chips-2"></a>
-### [富士胶片拟投 1800 万美元扩建 Mesa 半导体材料产能](https://news.google.com/rss/articles/CBMif0FVX3lxTFBuaTJhSGFWQkdBMDllTTRWTnV4QUVzMVZBR21kZTRxVWNPX2praUdwTHpmeHBlc3dCb3ZaYy0tOG9rNlZTRE9YVFVrN0pGMVFKckdPUjBpWFBobFRRV3FYbUdMbm5aSVlGRHpzOHdRODltdmdBZzBTMDdJSzZLSEE?oc=5) ⭐️ 6.4/10
+<a id="item-personal-ai-2"></a>
+### [Elorian 发布首款视觉推理模型 Glimpse](https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/) ⭐️ 7.2/10
 
-据 KTAR News 92.3 FM 报道，富士胶片计划在亚利桑那州 Mesa 投资 1800 万美元进行扩建，以提高半导体材料产量。该报道未披露具体产能、涉及产品、投产时间表，也未说明是否获得官方确认，相关细节仍需核实。
+Elorian 发布首个模型 Glimpse，以研究预览形式提供 API 和聊天界面。该模型主打“视觉草稿空间”，可在推理中裁剪图像、抽取视频帧或运行代码，初期面向机器人、科研、媒体和创意等需要处理大量视频的客户。
 
-rss · Semiconductor industry · 10月17日 12:46
+rss · TechCrunch AI · 10月16日 16:01
 
-**「影响」** 如果这项投资落实，将增加美国本土的半导体材料供应，与当地晶圆制造及材料供应链形成配套；但 1800 万美元的规模有限，实际影响取决于尚未公布的产品种类和产能增量。
+**「影响」** 这意味着，多模态模型不再只是“看一眼就转成文本”，而是能在推理中反复查看原图，因而更适合图表、视频帧和场景细节密集的企业任务；但实际能力仍待独立测试。
 
-**「已知信息」** 该消息于 2026 年 10 月 17 日由 KTAR News 报道，投资金额为 1800 万美元，地点为亚利桑那州 Mesa。扩建内容、产能数字与时间表均未在现有信息中说明，需以富士胶片官方公告为准。
+**「详情」** Glimpse 输入、输出定价分别为每百万 token 0.60 美元和 3 美元；Elorian 称其用数百块 GPU 训练，并在科学图表推理和短视频描述上优于 GPT-6 Astra，这些说法均来自厂商。原文：https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/
 
-**标签**: `#Fujifilm`, `#semiconductor materials`, `#capacity expansion`, `#Mesa Arizona`, `#manufacturing investment`
+**标签**: `#multimodal AI`, `#model launch`, `#visual reasoning`, `#AI startups`, `#API access`
+
+---
+
+<a id="item-personal-ai-3"></a>
+### [Vercel 称 Jev 创其最快模型采用纪录：两周覆盖 35% 付费团队](https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/) ⭐️ 7.2/10
+
+据 TechCrunch 报道，Vercel 的 AI 网关数据显示，TypeSafe AI 的轻量决策模型 Jev 在 9 月 15 日有限发布后两周内被 35% 的付费团队使用，约为第二名 Sonnet 5.5 的两倍。Vercel 称，这是其记录到的最快两周采用速度。
+
+rss · TechCrunch AI · 10月16日 15:33
+
+**「影响」** 对通过 Vercel AI 网关选型的团队而言，Jev 这类限制输出选项的模型更适合大规模分类等低成本、低延迟任务；但该数据仅来自单一厂商网关，可能低估 OpenAI、Anthropic 等自有 API 的用量。
+
+**「细节」** Jev 仍处于有限发布。Vercel 还称，开源模型占其网关处理 token 的超 70%、总支出的近 25%；Vercel 已用 Jev 替代 GPT-6 Luna 来分类有害命令。
+
+**标签**: `#AI models`, `#model adoption`, `#Vercel`, `#open source models`, `#TypeSafe AI`
+
+---
+
+## 消费电子
+
+<a id="item-personal-electronics-1"></a>
+### [JBL WAVE FLEX 3 半入耳降噪耳机首销，668 元](https://www.ithome.com/1/014/395.htm) ⭐️ 7.0/10
+
+据 IT 之家报道，JBL WAVE FLEX 3 半入耳式主动降噪耳机于 10 月 17 日在京东首销，定价 668 元，部分地区叠加国补后低至 499 元。新品提供六种配色，标称关闭降噪时综合续航约 40 小时，并采用 12mm 动圈、蓝牙 6.0 和六麦克风通话方案。
+
+rss · IT Home consumer electronics · 10月17日 12:36
+
+**「影响」** 对偏好半入耳佩戴、又需要主动降噪和多设备连接的用户，这增加了 668 元档的一个选择。499 元为部分地区国补后价格，并非全国统一到手价。
+
+**「细节」** 单耳重 4.39g；关闭和开启降噪时单次续航分别约 10 小时和 7 小时；耳机为 IP54、充电盒为 IPX2 抗水等级；支持同时连接两台设备。
+
+**标签**: `#JBL`, `#wireless earbuds`, `#active noise cancellation`, `#product launch`, `#pricing`
+
+---
+
+<a id="item-personal-electronics-2"></a>
+### [比亚迪第三代秦 PLUS 官图公布，秦 PLUS EV 完成申报](https://www.ithome.com/1/014/392.htm) ⭐️ 7.0/10
+
+比亚迪王朝网销售事业部总经理路天公布了第三代秦 PLUS 官图。工信部第 412 批新产品公示显示，秦 PLUS EV 已完成申报，车身长宽高为 4840/1900/1498 毫米、轴距 2800 毫米，搭载峰值功率 100 千瓦的永磁同步电机和磷酸铁锂电池。IT 之家报道预计 10 月下旬上市，但报道中的上市时间为预计，正式日期与价格未披露。
+
+rss · IT Home consumer electronics · 10月17日 12:31
+
+**「影响」** 新一代秦 PLUS EV 的空间与动力参数已经明确；对关注该价位的消费者，正式售价、配置和上市日期仍待官方确认。
+
+**标签**: `#BYD`, `#Qin PLUS EV`, `#MIIT filing`, `#EV specifications`, `#China auto`
 
 ---
 
 ## 商业与经济
 
 <a id="item-personal-business-1"></a>
-### [中国 9 月 CPI 同比上涨 0.9%](https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zSkxsSVg5UFhNVEVsTnFqWGhSblBQeThTUVNTRVdfaWo1bHVOdG5MR19fU2U5MjhxaXhNNS1OemJ5a3Zxb1RPZnJaLVQ3MVNz?oc=5) ⭐️ 6.0/10
+### [美方在曼谷会谈提出万事达与花旗市场准入](https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html) ⭐️ 7.5/10
 
-据 Trend News Agency 于 2026 年 10 月 17 日发布的报道，中国 9 月消费者物价指数（CPI）同比上涨 0.9%，标题称通胀“小幅上行”。该报道仅提供标题，未给出与 8 月的对比、环比数据或核心 CPI 分项，也未引用中国国家统计局的原始发布；具体数据仍以官方公布为准。
+美国财政部官员称，美方本周在曼谷与中国人民银行和财政部官员至少两次会晤，提出万事达和花旗在华市场准入问题。中国 10 月 13 日批准 Visa 筹备全资银行卡清算业务，Visa 最多有一年时间准备再申请运营牌照；该官员称相关审批属于特朗普与习近平上月华盛顿会晤协议的一部分。
 
-rss · Technology business and economy · 10月17日 09:35
+rss · CNBC business and economy · 10月16日 16:46
 
-**「影响」** CPI 是判断中国内需强弱与货币政策空间的关键指标，0.9%的涨幅意味着物价压力总体温和，对消费品、零售及食品相关企业的定价环境具有参考意义。由于缺少分项与对比数据，目前无法判断上行的具体来源。
+**「实际影响」** 这表明中国金融开放仍是分领域、有限度的推进。对万事达、花旗和 Visa 而言，后续牌照审批决定实际业务范围；中国仍限制跨境资本流动，本土机构在支付领域占主导。
 
-**「补充信息」** 发布方：Trend News Agency；报道时间：2026 年 10 月 17 日。来源未披露统计口径、基期对比及是否为核心 CPI，相关细节需等待中国国家统计局官方数据确认。
+**「补充细节」** 据知情人士，花旗正申请全资证券牌照，拟开展 A 股经纪、承销、研究和自营交易，计划在华证券员工增至约 100 人。万事达目前通过 2024 年开始运营的网联清算合资公司开展人民币卡业务。
 
-**标签**: `#China CPI`, `#inflation`, `#China macroeconomy`, `#September data`, `#consumer prices`
+**标签**: `#US-China relations`, `#financial market access`, `#payments`, `#Citigroup`, `#Visa`
+
+---
+
+<a id="item-personal-business-2"></a>
+### [伯克希尔加码 Bending Spoons，软件整合模式获背书](https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html) ⭐️ 7.0/10
+
+据 CNBC 报道，伯克希尔·哈撒韦对意大利软件控股公司 Bending Spoons 的累计投资已超过 9 亿美元，其中包括最新披露的 3.3 亿美元持股。消息公布后，这家今年 7 月登陆纳斯达克的公司股价一度上涨 41%，随后回吐部分涨幅，市值约 300 亿美元。Bending Spoons 专买被 AI 热潮边缘化的老牌软件资产，近期同意以约 13 亿美元收购 Airtable，并以 13.6 亿美元收购 Miro。
+
+rss · CNBC business and economy · 10月17日 15:11
+
+**「影响」** 这笔投资为 Bending Spoons“收购被 AI 挤压的 SaaS、削减成本并调整产品与定价”的整合路径提供了背书。Airtable、Miro、Evernote、Vimeo 等产品的用户和企业客户可能面对裁员、涨价及产品变化；这也反映 AI 代理正挤压传统软件公司的估值与融资空间。
+
+**标签**: `#Bending Spoons`, `#Berkshire Hathaway`, `#software M&amp;A`, `#SaaS`, `#tech consolidation`
 
 ---

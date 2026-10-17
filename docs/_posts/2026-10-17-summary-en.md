@@ -5,80 +5,132 @@ date: 2026-10-17
 lang: en
 ---
 
-> From 226 items, 4 important content pieces were selected
+> From 73 items, 7 important content pieces were selected
 
 ---
 
 **AI Products &amp; Industry**
-1. [Replit CEO Reportedly Ends Anthropic Work](#item-personal-ai-1) ⭐️ 6.0/10
+1. [Replit CEO Says Anthropic Partnership Ended; Insiders Dispute](#item-personal-ai-1) ⭐️ 7.5/10
+2. [Elorian launches Glimpse visual-reasoning model](#item-personal-ai-2) ⭐️ 7.2/10
+3. [Vercel: TypeSafe&\#x27;s Jev hits 35% of paid teams in two weeks](#item-personal-ai-3) ⭐️ 7.2/10
 
-**Semiconductor Industry**
-1. [Infineon, Wolfspeed sign 200mm SiC wafer supply deal](#item-personal-chips-1) ⭐️ 6.5/10
-2. [Fujifilm plans $18M Mesa semiconductor materials expansion](#item-personal-chips-2) ⭐️ 6.4/10
+**Consumer Electronics**
+1. [JBL Wave Flex 3 ANC Earbuds Go on Sale in China](#item-personal-electronics-1) ⭐️ 7.0/10
+2. [BYD reveals third-gen Qin PLUS; EV variant filed in China](#item-personal-electronics-2) ⭐️ 7.0/10
 
 **Business &amp; Economy**
-1. [China CPI reportedly rises 0.9% in September](#item-personal-business-1) ⭐️ 6.0/10
+1. [U.S. Raises Mastercard, Citigroup Access in Bangkok Talks](#item-personal-business-1) ⭐️ 7.5/10
+2. [Berkshire Backs Bending Spoons’ Software Rollup](#item-personal-business-2) ⭐️ 7.0/10
 
 ---
 
 ## AI Products &amp; Industry
 
 <a id="item-personal-ai-1"></a>
-### [Replit CEO Reportedly Ends Anthropic Work](https://news.google.com/rss/articles/CBMiigFBVV95cUxORUZZU1NHMjR4UjMxV2FHcVdGejB1UTFIQXdIT1VJZUJkbGVGdmJaTEMzMng0RUFPb3ZTd3R5cGszOHFmdzhiajNjeGhUeDVuSWdKT3A4ektPY1ZHMTB2UjFObklOZUxqbE1ONUVhS0h1Y0V4NTBvbzN2aERWdkF0aUIwNlRTUk9rZVE?oc=5) ⭐️ 6.0/10
+### [Replit CEO Says Anthropic Partnership Ended; Insiders Dispute](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/) ⭐️ 7.5/10
 
-Unite.AI reports that Replit CEO Amjad Masad said the company no longer works with Anthropic. The item provides only a headline: no date for the statement, no reason, no replacement model provider, and no confirmation from Replit or Anthropic. The claim should be treated as unconfirmed.
+Replit CEO Amjad Masad said onstage at TechCrunch Disrupt that Replit is no longer working with Anthropic, citing cost, partnership and performance. He said ChatGPT is “better now” and that Replit&\#x27;s benchmarks favored alternatives. People familiar with the partnership disputed that it had ended, and Replit materials from late September cited Anthropic Claude models in production. TechCrunch said it sought clarification.
 
-rss · AI products and companies · Oct 16, 23:06
+rss · TechCrunch AI · Oct 16, 21:22
 
-**「Impact」** If confirmed, the change would matter to Replit users and enterprise buyers who depend on Anthropic models inside Replit&\#x27;s coding platform, and would shift a visible AI-tooling partnership. The practical effect on model availability, pricing or performance cannot be assessed from the available evidence.
+**「Impact」** If confirmed, the change would affect the models behind Replit Agent and remove a prominent AI-coding customer from Anthropic. The conflicting accounts leave Replit users and partners without a clear confirmation of the current relationship.
 
-**Tags**: `#Replit`, `#Anthropic`, `#AI partnerships`, `#enterprise AI`
+**「Context」** Masad also said enterprise contracts were about 15% of revenue this year versus 2% last year, and more than 50% of revenue was B2B. Report published Oct. 16, 2026: https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/
 
----
-
-## Semiconductor Industry
-
-<a id="item-personal-chips-1"></a>
-### [Infineon, Wolfspeed sign 200mm SiC wafer supply deal](https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ3FoaWhJY05TNWtJUUM1NEVPVFllU18yT3dMRVlBblltSUduLW5wa1ZsRUdBdGZ2MnJBTnBBRHY5b2czc1JPRU5YcDhnM3pWNTk0bGYxNm0xQnFkd2Vtc2tsUHF3Wmd2V2o4MGpPS2xBa05Ed0J0cDRES2ZVMFJUa09lOGhBYkFFQXAwMDN5TDBTTHlIeG5IMm5uLW1KYWQxcFBjcFFvQ0t5c2JTX0lHRlpKZS1FeVZNa2h1QzBjYjV6WVBLWGRtX28yWXB1R2Y10gHWAUFVX3lxTE12akJVMC1nZWdCdmtHQld6M2x4QmRLZmN3anlBS0R2aHJhc3RWWksxUGYyWUMwTlNfWXFZeHA4UmFGc2IwS3B2OVBGdWkwYjA1VTdZRWNXRGhiVXU2V0ZQTDdEdUVpSzZKRjFLbmRFUC1Dc3g0bTRqMUZMT0xtelNJdHJzdG5TTUNOYVkyVDM1akYyNlloaHI4T1hzZUdWSExXUXVoUGRla3NTa293MUxFc0pmSTNra1I5aE9BRURnUWxsd1ZIdlVTcFh3bEdiYml2QTJkdXc?oc=5) ⭐️ 6.5/10
-
-Infineon has signed a supply agreement with Wolfspeed for 200mm silicon carbide wafers, according to a headline report from electronics.economictimes.indiatimes.com. The report provides no deal value, volume, duration or delivery schedule, and neither company&\#x27;s confirmation was included in the supplied material. Terms and timing therefore remain unconfirmed.
-
-rss · Semiconductor industry · Oct 17, 07:24
-
-**「Impact」** The reported deal would link Infineon&\#x27;s SiC device production to Wolfspeed&\#x27;s larger-format wafer supply, a relevant step as the industry shifts from 150mm to 200mm SiC substrates to raise output per wafer. Practical effects depend on volumes and timing, which were not disclosed.
-
-**Tags**: `#Infineon`, `#Wolfspeed`, `#SiC wafers`, `#200mm wafers`, `#semiconductor supply chain`
+**Tags**: `#Replit`, `#Anthropic`, `#AI partnerships`, `#AI coding`, `#TechCrunch Disrupt`
 
 ---
 
-<a id="item-personal-chips-2"></a>
-### [Fujifilm plans $18M Mesa semiconductor materials expansion](https://news.google.com/rss/articles/CBMif0FVX3lxTFBuaTJhSGFWQkdBMDllTTRWTnV4QUVzMVZBR21kZTRxVWNPX2praUdwTHpmeHBlc3dCb3ZaYy0tOG9rNlZTRE9YVFVrN0pGMVFKckdPUjBpWFBobFRRV3FYbUdMbm5aSVlGRHpzOHdRODltdmdBZzBTMDdJSzZLSEE?oc=5) ⭐️ 6.4/10
+<a id="item-personal-ai-2"></a>
+### [Elorian launches Glimpse visual-reasoning model](https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/) ⭐️ 7.2/10
 
-Fujifilm reportedly plans an $18 million expansion in Mesa, Arizona, aimed at increasing semiconductor materials production, according to KTAR News. The report, published Oct. 17, 2026, did not specify added capacity, products or a timeline in the supplied excerpt.
+Elorian released Glimpse, its first AI model, as a research preview with API and chat access on October 16, 2026. The Palo Alto startup says the system can crop into image regions, extract video frames and run code mid-reasoning—a “visual scratch space”—rather than only reasoning over an initial image description.
 
-rss · Semiconductor industry · Oct 17, 12:46
+rss · TechCrunch AI · Oct 16, 16:01
 
-**「Impact」** The investment would add semiconductor-materials capacity in Arizona, potentially supporting chipmakers and suppliers in the U.S. supply chain. Its practical effect depends on the products and timing, which the supplied report did not detail.
+**「Impact」** The preview targets companies with large video archives—robotics, scientific labs, media and creative firms—and gives them a pay-per-token way to test iterative visual analysis. Its practical impact is still unproven because Elorian cites only its own evaluations so far.
 
-**「Details」** Supported details: $18 million; Mesa, Arizona; semiconductor materials production. No capacity, product, timeline or incentive information was provided in the supplied excerpt; official company confirmation is needed.
+**「Details」** Pricing is $0.60 per million input tokens and $3 per million output tokens. Elorian says a small team trained Glimpse on a few hundred GPUs and that the model is substantially smaller than frontier systems; its claims of outperforming GPT-6 Astra on scientific chart reasoning and short-form video captioning are company evaluations.
 
-**Tags**: `#Fujifilm`, `#semiconductor materials`, `#capacity expansion`, `#Mesa Arizona`, `#manufacturing investment`
+**Tags**: `#multimodal AI`, `#model launch`, `#visual reasoning`, `#AI startups`, `#API access`
+
+---
+
+<a id="item-personal-ai-3"></a>
+### [Vercel: TypeSafe&\#x27;s Jev hits 35% of paid teams in two weeks](https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/) ⭐️ 7.2/10
+
+Vercel&\#x27;s AI gateway data indicates TypeSafe AI&\#x27;s Jev, a lightweight model for choosing among predetermined outputs, was used by 35% of paid teams within two weeks of its September 15 limited release. Vercel says that is its fastest two-week model adoption and nearly double the reach of second-place Sonnet 5.5. The same gateway data shows open source models now account for over 70% of tokens and nearly 25% of spend.
+
+rss · TechCrunch AI · Oct 16, 15:33
+
+**「Why it matters」** The figures suggest real demand for cheaper, faster classification-style models rather than only frontier chatbots. But they reflect one vendor&\#x27;s gateway, which Vercel acknowledges can undercount usage through OpenAI and Anthropic&\#x27;s own APIs.
+
+**「Details」** Jev remains in limited release. Vercel says it used Jev to replace GPT-6 Luna for classifying harmful commands. Source: https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/
+
+**Tags**: `#AI models`, `#model adoption`, `#Vercel`, `#open source models`, `#TypeSafe AI`
+
+---
+
+## Consumer Electronics
+
+<a id="item-personal-electronics-1"></a>
+### [JBL Wave Flex 3 ANC Earbuds Go on Sale in China](https://www.ithome.com/1/014/395.htm) ⭐️ 7.0/10
+
+JBL has begun first sales in China of its Wave Flex 3 semi-in-ear ANC earbuds at 668 yuan, with some regional subsidies lowering the price to 499 yuan, according to IT Home. The model comes in six colors and features a 12mm dynamic driver, Bluetooth 6.0, and up to 40 hours of total battery life with ANC off.
+
+rss · IT Home consumer electronics · Oct 17, 12:36
+
+**「Impact」** The launch adds another ANC option to JBL’s China lineup for buyers who prefer a semi-in-ear fit. Dual-device connection and a six-microphone call setup target everyday commuting and calls.
+
+**「Details」** Battery life is about 10 hours per charge with ANC off and 7 hours with ANC on; the case extends total use to about 40 hours with ANC off. The earbuds are IP54-rated and weigh 4.39g each; the case is IPX2-rated. Source: https://www.ithome.com/1/014/395.htm
+
+**Tags**: `#JBL`, `#wireless earbuds`, `#active noise cancellation`, `#product launch`, `#pricing`
+
+---
+
+<a id="item-personal-electronics-2"></a>
+### [BYD reveals third-gen Qin PLUS; EV variant filed in China](https://www.ithome.com/1/014/392.htm) ⭐️ 7.0/10
+
+BYD&\#x27;s Dynasty Network sales chief shared official images of the third-generation Qin PLUS, claiming a larger body and more interior space. The Qin PLUS EV has completed a MIIT product filing in China with dimensions of 4,840×1,900×1,498 mm, a 2,800 mm wheelbase and a 100 kW peak-output motor. A late-October launch is expected, but BYD has not confirmed a date or pricing.
+
+rss · IT Home consumer electronics · Oct 17, 12:31
+
+**「Impact」** The filing gives Chinese buyers verified size and power details ahead of launch, while the official images indicate the next Qin PLUS EV is close to market. For the compact EV segment, the larger footprint and 100 kW motor are the concrete changes disclosed so far.
+
+**「Details」** MIIT published the filing in its 412th batch of road-vehicle product announcements. The EV uses a permanent-magnet synchronous motor \(TZ164XYD\) with 100 kW peak and 40 kW rated output, plus a lithium iron phosphate battery. No range, battery capacity, price or precise launch date was included in the supplied material.
+
+**Tags**: `#BYD`, `#Qin PLUS EV`, `#MIIT filing`, `#EV specifications`, `#China auto`
 
 ---
 
 ## Business &amp; Economy
 
 <a id="item-personal-business-1"></a>
-### [China CPI reportedly rises 0.9% in September](https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zSkxsSVg5UFhNVEVsTnFqWGhSblBQeThTUVNTRVdfaWo1bHVOdG5MR19fU2U5MjhxaXhNNS1OemJ5a3Zxb1RPZnJaLVQ3MVNz?oc=5) ⭐️ 6.0/10
+### [U.S. Raises Mastercard, Citigroup Access in Bangkok Talks](https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html) ⭐️ 7.5/10
 
-China’s consumer inflation reportedly edged up to 0.9% in September, according to a headline-only Trend News Agency item. The report did not provide the prior reading, underlying components or a link to the official statistics release.
+U.S. Treasury officials raised market-access concerns for Mastercard and Citigroup in at least two bilateral meetings with Chinese counterparts in Bangkok this week, a Treasury official said. The talks followed China’s Oct. 13 approval for Visa to prepare a wholly owned domestic card-clearing business, with up to a year before it applies for an operating license. Mastercard and Citigroup outcomes remain pending, according to the official and people familiar with the matters.
 
-rss · Technology business and economy · Oct 17, 09:35
+rss · CNBC business and economy · Oct 16, 16:46
 
-**「Why it matters」** The reading is a key gauge for Chinese households, businesses and policymakers assessing domestic demand and the case for further monetary easing. With only a headline available, its practical significance cannot yet be fully assessed.
+**「Impact」** The talks test whether U.S.-China commitments translate into licenses for American payments and securities firms. Mastercard clears yuan card payments through a NetsUnion joint venture; Citigroup seeks a wholly owned securities license for onshore A-share brokerage and underwriting.
 
-**「Evidence caveat」** The 0.9% September figure is unconfirmed by a primary statistical release in the supplied material; official confirmation and comparison with earlier months are needed.
+**「Details」** Visa’s preparation period is up to one year, the PBOC said. Citigroup applied in late 2021; one person close to the bank said it planned to raise China securities staff to about 100. Approval is not confirmed.
 
-**Tags**: `#China CPI`, `#inflation`, `#China macroeconomy`, `#September data`, `#consumer prices`
+**Tags**: `#US-China relations`, `#financial market access`, `#payments`, `#Citigroup`, `#Visa`
+
+---
+
+<a id="item-personal-business-2"></a>
+### [Berkshire Backs Bending Spoons’ Software Rollup](https://www.cnbc.com/2026/10/17/bending-spoons-wants-to-revive-software-castoffs-berkshire-investing.html) ⭐️ 7.0/10
+
+Berkshire Hathaway has invested more than $900 million in Italy’s Bending Spoons, including a $330 million stake disclosed Wednesday, CNBC reported Oct. 17. The vote of confidence follows the software consolidator’s July Nasdaq debut and supports its strategy of buying legacy software assets displaced by the AI boom. Bending Spoons’ stock rose 41% on the disclosure before giving up some gains, leaving a market capitalization near $30 billion, CNBC said.
+
+rss · CNBC business and economy · Oct 17, 15:11
+
+**「Why It Matters」** The bet tests whether a buy-and-hold software rollup can profit from SaaS products that AI agents are displacing. Customers of acquired services such as Airtable, Evernote and Vimeo face operational changes, job cuts and, in Evernote’s case, higher subscription prices.
+
+**「Deal Context」** Bending Spoons agreed in August to buy Airtable for about $1.3 billion, almost 90% below Airtable’s late-2021 peak valuation. On Monday, it said a large portion of Airtable’s pre-acquisition team would leave with substantial separation packages.
+
+**Tags**: `#Bending Spoons`, `#Berkshire Hathaway`, `#software M&amp;A`, `#SaaS`, `#tech consolidation`
 
 ---
